@@ -48,14 +48,15 @@ t5-base model. Exploration this model you can see here `notebooks/fine_tune_t5_f
 But this model trained about 2 hours(on Kaggles GPU accelerators) and it just learns output the same text...
 And you need 2.38 GB to store this model. Maybe if I train longer, it shows better results. By now, it very bad solution.
 
-Fourth, I try train seq2seq model that I train on the preprocess dataset
-
-
+Fourth, I try train seq2seq model that I train on the preprocess dataset. As you can see in `notebooks/exploration-seq2seq_model.ipynb`,
+model just return some unrelated words. 
 
 # Model evalution
 Code for models evaluation here `src/visualization/visualize.py`
 
 | Model                    | Average similarity | Average toxicity |
 |--------------------------|--------------------|------------------|
-| baseline                 | 1.0                | 0.518            |        |
+| baseline                 | 1.0                | 0.518            |
 | deleting bad words model | 0.981              | 0.494            |
+| t5-base                  | 1.0                | 0.518            |
+| seq2seq                  | 0.15               | 0.001            |
