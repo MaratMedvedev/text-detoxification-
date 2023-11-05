@@ -48,7 +48,7 @@ t5-base model. Exploration this model you can see here `notebooks/fine_tune_t5_f
 But this model trained about 2 hours(on Kaggles GPU accelerators) and it just learns output the same text...
 And you need 2.38 GB to store this model. Maybe if I train longer, it shows better results. By now, it very bad solution.
 
-
+Fourth, I try train seq2seq model that I train on the preprocess dataset
 
 
 
