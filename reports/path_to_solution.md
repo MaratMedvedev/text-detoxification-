@@ -46,7 +46,7 @@ After, t5-small model doesn't give some good results, I decide to try their big 
 t5-base model. Exploration this model you can see here `notebooks/fine_tune_t5_for_detoxication.ipynb`.
 
 But this model trained about 2 hours(on Kaggles GPU accelerators) and it just learns output the same text...
-And you need 2.38 GB to store this model. So, it very bad solution.
+And you need 2.38 GB to store this model. Maybe if I train longer, it shows better results. By now, it very bad solution.
 
 
 
